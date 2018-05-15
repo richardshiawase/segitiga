@@ -1,0 +1,27 @@
+def segitiga(input):
+  midcol = input//2
+  mid1=midcol
+  mid2=midcol
+  midrow = (input//2)+1
+  #print(midrow)
+  for i in range(midrow):
+    for j in range(input):
+      if i==0 and j==midcol:
+        print("*",end='')
+      elif i>0 and i<midrow-1:
+        if j==mid1 or j==mid2:
+          print("*",end='')
+        else:
+          print("-",end='')
+      elif i==midrow-1:
+        print("*",end='')
+      else :
+        print("-",end='')
+    mid1-=1
+    mid2+=1
+    print("")    
+        
+        
+        
+        
+segitiga(7)
