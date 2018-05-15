@@ -1,0 +1,2 @@
+# segitiga
+segitiga bintang
