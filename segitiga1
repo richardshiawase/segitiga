@@ -20,8 +20,4 @@ def segitiga(input):
     mid1-=1
     mid2+=1
     print("")    
-        
-        
-        
-        
-segitiga(7)
+
